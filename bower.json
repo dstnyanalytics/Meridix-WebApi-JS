@@ -1,0 +1,20 @@
+{
+  "name": "Meridix-WebAPI-JS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/meridixsystems/Meridix-WebApi-JS",
+  "authors": [
+    "Johan Wendelstam <johan@meridix.se>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "ISC",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

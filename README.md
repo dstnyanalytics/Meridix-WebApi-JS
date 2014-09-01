@@ -6,6 +6,10 @@ The package is available through bower
 
     bower install meridix-webapi-js
     
+### Dependencies
+The following libraries must be loaded prior to using this library
+* https://code.google.com/p/crypto-js
+    
 ### Build
 To build the minified/uglified version run grunt
 

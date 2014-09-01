@@ -8,8 +8,7 @@
   "moduleType": [
     "globals"
   ],
-  "license": "ISC",
-  "private": true,
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -19,5 +18,10 @@
   ],
   "devDependencies": {
     "CryptoJS": "~3.1.12"
-  }
+  },
+  "description": "JavaScript client for Meridix WebAPI",
+  "main": "dist/meridix.webApi.min.js",
+  "keywords": [
+    "Meridix"
+  ]
 }

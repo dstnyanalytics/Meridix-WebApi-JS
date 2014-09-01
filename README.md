@@ -8,7 +8,7 @@ The package is available through bower
     
 ### Dependencies
 The following libraries must be loaded prior to using this library
-* https://code.google.com/p/crypto-js
+* https://code.google.com/p/crypto-js (MD5 lib)
     
 ### Build
 To build the minified/uglified version run grunt

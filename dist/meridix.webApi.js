@@ -1,4 +1,4 @@
-/*! Meridix-WebAPI-JS - v0.0.1 - 2014-08-29
+/*! Meridix-WebAPI-JS - v0.0.1 - 2014-08-31
 * https://github.com/meridixsystems/Meridix-WebApi-JS
 * Copyright (c) 2014 ; Licensed ISC */
 var meridix = meridix || {};

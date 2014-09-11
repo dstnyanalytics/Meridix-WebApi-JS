@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/*! Meridix-WebAPI-JS - v0.0.1 - 2014-08-31
-=======
-/*! Meridix-WebAPI-JS - v0.0.1 - 2014-09-01
->>>>>>> 25e0d46444af6a653ee83350582356754d037313
+/*! Meridix-WebAPI-JS - v0.0.1 - 2014-09-11
 * https://github.com/meridixsystems/Meridix-WebApi-JS
 * Copyright (c) 2014 ; Licensed MIT */
 var meridix = meridix || {};

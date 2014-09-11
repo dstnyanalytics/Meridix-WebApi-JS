@@ -16,7 +16,7 @@
     "API"
   ],
   "author": "Meridix Systems AB | Johan Wendelstam <johan@meridix.se>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/meridixsystems/Meridix-WebApi-JS/issues"
   },

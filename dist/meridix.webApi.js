@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 /*! Meridix-WebAPI-JS - v0.0.1 - 2014-08-31
+=======
+/*! Meridix-WebAPI-JS - v0.0.1 - 2014-09-01
+>>>>>>> 25e0d46444af6a653ee83350582356754d037313
 * https://github.com/meridixsystems/Meridix-WebApi-JS
-* Copyright (c) 2014 ; Licensed ISC */
+* Copyright (c) 2014 ; Licensed MIT */
 var meridix = meridix || {};
 meridix.webApi = meridix.webApi || {};
 
@@ -22,6 +26,10 @@ meridix.webApi.createSignedUrl = function(url, token, secret, options){
 	}
 
 	function createSignature(text) {
+		if(!CryptoJS || !CryptoJS.MD5) {
+			throw "CryptoJS (.MD5) is not defined. Make sure that it is referenced and loaded prior to calling this method.";
+		}
+
 		var hash = CryptoJS.MD5(text);
 		return hash.toString(CryptoJS.enc.Hex);
 	}

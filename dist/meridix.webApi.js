@@ -1,10 +1,10 @@
-/*! Meridix-WebAPI-JS - v0.0.1 - 2014-09-11
+/*! Meridix-WebAPI-JS - v0.0.1 - 2016-10-18
 * https://github.com/meridixsystems/Meridix-WebApi-JS
-* Copyright (c) 2014 ; Licensed MIT */
+* Copyright (c) 2016 ; Licensed MIT */
 var meridix = meridix || {};
 meridix.webApi = meridix.webApi || {};
 
-meridix.webApi.createSignedUrl = function(url, token, secret, options){
+meridix.webApi.createSignedUrl = function(verb, url, token, secret, options){
 
 	function consoleLog(message){
 		if(options.consoleLoggingEnabled && console && console.log) {
@@ -85,7 +85,7 @@ meridix.webApi.createSignedUrl = function(url, token, secret, options){
 	var requestEncoded = encodeURIComponent(request);
 	consoleLog('RequestEncoded:\n' + requestEncoded);
 
-	var verbRequestQuery = 'GET&' + requestEncoded + '&' + parametersConcatedEncoded + '&' + secret;
+	var verbRequestQuery = verb.toUpperCase() + '&' + requestEncoded + '&' + parametersConcatedEncoded + '&' + secret;
 	consoleLog('VerbRequestQuery:\n' + verbRequestQuery);
 
 	var signature = createSignature(verbRequestQuery);

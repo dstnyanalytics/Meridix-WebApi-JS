@@ -1,6 +1,6 @@
 {
   "name": "Meridix-WebAPI-JS",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A JS util library for Meridix Web API Javascript clients",
   "main": "meridix.webApi.js",
   "scripts": {

@@ -4,11 +4,11 @@ This is a library that can be used to sign API requests against Meridix WebAPI.
 ### Installation
 The package is available through NPM
 
-    npm install meridix-webapi-js --save
+    npm install Meridix-WebAPI-JS --save
     
 The package is available through Bower
 
-    bower install meridix-webapi-js
+    bower install Meridix-WebAPI-JS
     
 ### Dependencies
 The following libraries must be loaded prior to using this library

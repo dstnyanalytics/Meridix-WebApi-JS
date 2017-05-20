@@ -1,8 +1,9 @@
 {
     "name": "meridix-webapi",
-    "version": "0.0.38",
+    "version": "0.0.40",
     "description": "A JS util library for Meridix Web API Javascript clients",
     "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
     "scripts": {
         "build": "npm install && npm run compile",
         "compile": "tsc",

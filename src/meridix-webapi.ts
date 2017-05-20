@@ -5,10 +5,7 @@
 
 import * as CryptoJS from 'crypto-js';
 
-export class MeridixWebApiOptions {
-    parameters?: string[];
-    consoleLoggingEnabled?: boolean;
-}
+import { CreateSignatureOptions } from './create-signature-options';
 
 export class MeridixWebApi {
     private static randomString(length: number) {
@@ -48,7 +45,7 @@ export class MeridixWebApi {
         }
     }
 
-    createSignedUrl(verb: string, url: string, token: string, secret: string, options?: MeridixWebApiOptions) {
+    createSignedUrl(verb: string, url: string, token: string, secret: string, options?: CreateSignatureOptions) {
         options = options || {
             consoleLoggingEnabled: false,
             parameters: undefined

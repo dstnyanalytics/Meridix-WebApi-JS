@@ -6,18 +6,13 @@ The package is available through NPM
 
     npm install Meridix-WebAPI-JS --save
     
-The package is available through Bower
-
-    bower install Meridix-WebAPI-JS
-    
 ### Dependencies
-The following libraries must be loaded prior to using this library
-* https://code.google.com/p/crypto-js (MD5 lib)
+CryptoJS
     
 ### Build
-To build the minified/uglified version run grunt
+To build the package
 
-    grunt [default]
+    npm run build
 
 ### Support or Contact
 Having trouble with Meridix-WebAPI-JS?

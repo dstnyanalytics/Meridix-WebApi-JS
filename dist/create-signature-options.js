@@ -1,18 +1,6 @@
-(function (factory) {
-    if (typeof module === "object" && typeof module.exports === "object") {
-        var v = factory(require, exports);
-        if (v !== undefined) module.exports = v;
+var CreateSignatureOptions = /** @class */ (function () {
+    function CreateSignatureOptions() {
     }
-    else if (typeof define === "function" && define.amd) {
-        define(["require", "exports"], factory);
-    }
-})(function (require, exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    var CreateSignatureOptions = (function () {
-        function CreateSignatureOptions() {
-        }
-        return CreateSignatureOptions;
-    }());
-    exports.CreateSignatureOptions = CreateSignatureOptions;
-});
+    return CreateSignatureOptions;
+}());
+export { CreateSignatureOptions };
